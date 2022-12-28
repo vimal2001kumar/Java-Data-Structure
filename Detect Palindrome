@@ -1,0 +1,16 @@
+class Main {
+  public static void main(String[] args) {
+    String s="1221";
+    int N=s.length();
+    String M="";
+    for(int i=N-1;i>=0;i--){
+       M+=s.charAt(i); 
+    }
+   if(M.equals(s)){
+       System.out.println("Yes");
+   }
+   else{
+       System.out.println("No");
+   }
+  }
+}
